@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(245, 240, 246);
+    width: 80%;
+    display: ;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(100deg, hsla(178, 67% 91%, 1) 0%, hsla(22, 41%, 84%, 1) 100%);
+}
+h1{
+    color: rgb(80, 54, 80);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-shadow: 10px pink;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: rgb(72, 51, 51);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+.links{
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.flexbox-container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.flexbox-item {
+    margin: 10px;
+    border: 3px solid rgb(105, 64, 154);
+    background-color: rgb(237, 206, 225);
+}
+.flexbox-item-1 {
+    width: 650px;
+}
+.flexbox-item-links {
+    min-height: 100px;
+}
+.flexbox-item-3 {
+    width: 300px;
+    margin: 5px;
+}
+.flexbox-container-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
